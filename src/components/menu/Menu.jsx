@@ -1,4 +1,7 @@
+import Home from '../../pages/home/Home'
 import './Menu.css'
+
+const home = <Home/>
 
 
 export default function Menu() {
@@ -10,26 +13,26 @@ export default function Menu() {
             <div className='hr' > </div>
             <ul>
                 <li>
-                    <a href="#">
+                  <a href={home}>
                     <i class='bx bx-home'></i>
                         <span>Bosh sahifa</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                    <i class='bx bx-home'></i>
-                        <span>Home</span>
+                    <i class='bx bx-category' ></i>
+                        <span>Barcha kurslar</span>
                     </a>
                 </li><li>
                     <a href="#">
-                    <i class='bx bx-home'></i>
-                        <span>Home</span>
+                    <i class='bx bx-folder'></i>
+                        <span>Loyihalar</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                    <i class='bx bx-home'></i>
-                        <span>Home</span>
+                    <i class='bx bx-code-block'></i>
+                        <span>Kod manbalari</span>
                     </a>
                 </li>
             </ul>
@@ -50,7 +53,7 @@ export default function Menu() {
              <p className='menu__share_name'>Ijtimoiy tarmoqlarda bizni kuzating</p>
              <div className='hr'> </div>
              <div className='share'>
-                <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
                 <a href=""><i class='bx bxl-telegram' ></i></a>
                 <a href=""><i class='bx bxl-linkedin-square' ></i></a>
                 <a href=""><i class='bx bxl-github' ></i></a>

@@ -1,7 +1,7 @@
 .menu{
     position: fixed;
     width: 300px;
-    height: 92vh;
+    height: 100%;
     /* border: 1px solid red; */
     top: 81px;
     display: flex;
@@ -70,5 +70,52 @@
 }
 .menu__data span{
     font-size: 14px;
+    
 }
 
+.menu__share{
+    width: 88%;
+}
+
+.menu__share_name{
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    color: grey;
+}
+.menu__share .hr{
+    background: #ffffff31;
+    height: 1px;
+    margin-bottom: 26px;
+}
+.menu__share .share {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.menu__share .share a{
+    text-decoration: none;
+}
+.menu__share .share i{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 100px;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu__share .share i:hover
+{
+    color: white;
+    font-size: 23px;
+    /* margin-bottom: 30px; */
+    background: #ffffff17;
+    border-radius: 5px;
+
+}

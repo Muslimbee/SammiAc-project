@@ -15,7 +15,7 @@ export default function Navbar() {
                 </a>
             </div>
             <div className="navbar__right">
-           <a href="#"> <i class='bx bxs-user'></i> </a>
+           <a href="#"> <i class='bx bx-user-pin'></i></a>
            <a href="#"> <i class='bx bxs-moon' ></i></a>
            <a href="#"> <img src={profile} alt="" /></a>
             </div>
